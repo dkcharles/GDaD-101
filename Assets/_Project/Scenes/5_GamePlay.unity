@@ -10992,7 +10992,7 @@ Tilemap:
   - first: {x: 5, y: -1, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 2
+      m_TileIndex: 9
       m_TileSpriteIndex: 9
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
@@ -11065,8 +11065,8 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 5d2f2ff30149ac44eaaabdfdb6d14df2, type: 2}
   - m_RefCount: 10
     m_Data: {fileID: 11400000, guid: d6ed7bb4677eb29419c59921eac96454, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 081f2e26a40157040ad44d5229139dbd, type: 2}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: df6a4eacc4e38fe42be480ee0f28d83f, type: 2}
   - m_RefCount: 1
@@ -11079,8 +11079,8 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 081f2e26a40157040ad44d5229139dbd, type: 2}
   - m_RefCount: 2
     m_Data: {fileID: 11400000, guid: 6427dcbc78428254bae1533d905242f8, type: 2}
   - m_RefCount: 2
@@ -11135,21 +11135,21 @@ Tilemap:
       e33: 1
   - m_RefCount: 0
     m_Data:
-      e00: 0.10825086
-      e01: 4e-45
-      e02: 9.980112e+36
+      e00: -4.550874e+21
+      e01: 7e-45
+      e02: 3.171378e-27
       e03: 0
-      e10: 9.4e-44
-      e11: 0
+      e10: 2.79e-43
+      e11: NaN
       e12: 4.5904e-41
       e13: 0
-      e20: NaN
+      e20: 1.01286e-40
       e21: 0
-      e22: 0.10825074
+      e22: -4.5508694e+21
       e23: 0
       e30: 0
       e31: 7.34684e-40
-      e32: 9.4e-44
+      e32: 2.79e-43
       e33: 1
   m_TileColorArray:
   - m_RefCount: 30
@@ -12603,12 +12603,13 @@ MonoBehaviour:
     m_Bits: 64
   groundCheckRadius: 0.28
   groundCheckColor: {r: 1, g: 0, b: 0, a: 1}
+  isGrounded: 0
   jumpSound: {fileID: 8300000, guid: 47db8b6d8c848474aabe8baf9f2106f7, type: 3}
   zapSound: {fileID: 8300000, guid: 43c51f40f9a9f6646aa48d9b9c577bcf, type: 3}
   collectSound: {fileID: 8300000, guid: fb3a1870aad975c4b8c2a181c1ea2ec6, type: 3}
   explosionEffect: {fileID: 5860549636418229328, guid: e25a341dc7abd9b4ea7eeb2b4f78bcb2, type: 3}
   puffCloudEffect: {fileID: 21018604648666919, guid: 576f9f603397e69428169b4466cda5e4, type: 3}
-  isGrounded: 0
+  spawnPointSecretArea: {fileID: 0}
 --- !u!1 &1144136948
 GameObject:
   m_ObjectHideFlags: 0
@@ -12733,7 +12734,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 1.92
+  orthographic size: 1.8
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
