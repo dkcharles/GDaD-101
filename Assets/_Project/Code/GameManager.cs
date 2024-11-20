@@ -38,7 +38,6 @@ public sealed class GameManager : MonoBehaviour
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject);
         }
         else
         {
@@ -49,7 +48,7 @@ public sealed class GameManager : MonoBehaviour
     void Start()
     {
         Debug.Log("GameManager is running");    // delete this line after testing
-        DontDestroyOnLoad(gameObject);          // persist between scenes   
+        DontDestroyOnLoad(gameObject);
         ChangeGameState(GameState.Running);
     }
 
